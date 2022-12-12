@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+    <style>
+        *{
+            font-family: 'Times New Roman', Times, serif;
+            padding: 10px;
+            margin: 0 auto;
+            text-align: center;
+        }
+        table{
+            border: none;
+            background-color: rgb(9, 89, 163);
+            color: white;
+            border-radius: 5px;
+        }
+        nav{
+            border: 10px;
+            background-color: rgb(25, 155, 148);
+            color: rgb(3, 3, 3);
+            border-radius: 10px;
+        }
+        form{
+            align-content: center;
+            width: 300px;
+            background-color: rgb(73, 85, 151);
+            border-radius: 20px;
+            color: white;
+        }
+        img{
+            background-color: rgb(0, 4, 255);
+            color: white;
+        }
+        a{
+            text-decoration: none;
+            color: rgb(14, 13, 13);
+        }
+        input{
+            border-radius: 10px;
+        }
+        iframe{
+            background-color: rgb(58, 68, 197);
+            border-radius: 5px;
+            color: white;
+        }
+        button{
+            border: none;
+            background-color: rgb(117, 0, 128);
+            color: white;
+            border-radius: 10px;
+        }
+        @media (max-width: 1366px) {
+            *{
+                font-family: 'Times New Roman', Times, serif;
+                padding: 10px;
+                margin: 0 auto;
+                text-align: left;
+                font-size: 12px;
+            }
+            iframe{
+                width: 210px;
+                height: 115px;
+                background-color: rgb(58, 68, 197);
+                border-radius: 10px;
+                color: white;
+            }
+            img{
+                width: 100px;
+                background-color: rgb(0, 4, 255);
+                color: white;
+            }
+            table{
+                width: 250px;
+                border: none;
+                background-color: rgb(9, 89, 163);
+                color: white;
+                border-radius: 5px;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <img height="170px" src="https://scontent-sin6-4.xx.fbcdn.net/v/t31.18172-8/21543789_1621488701259917_8806382008254576159_o.jpg?_nc_cat=103&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeFTPalvJOeVI4FnckJlxmr2FLhC1M6UtoUUuELUzpS2heeJ57BA8AX4RFGp813xFoCkUFJ6LMkiDashRq0wlf2_&_nc_ohc=9KECQrphWrUAX8iQjeR&_nc_ht=scontent-sin6-4.xx&oh=00_AfC-xbKja5pcPefAxam3af2jc9GxA15u9Ma0OjXAUkgAcw&oe=63BE6C00" alt="">
+	<h1>Saya, Ahmad Nadhif</h1>
+	<p>seorang mahasiswa gabut</p>
+	<nav>
+		<a href="#1">Tentang Saya</a>
+		<a href="#2">Riwayat Pendidikan</a>
+		<a href="#3">Hubungi Saya</a>
+    </nav>
+	<h2 id="1">Tentang Saya</h2>
+	<p>Nama saya Ahmad Nadhif Mu'afa. Saya adalah mahasiswa ITERA angkatan 2020. Saya menempuh pendidikan di program studi Teknik Informatika.</p><br/>
+    <iframe src="https://youtube.com/embed/wFb5pXVI3ig" width="420" height="240"></iframe>    
+	<p>video saya</p>
+
+	<h2 id="2">Riwayat Pendidikan</h2>
+	<table class="ti1" border="1">
+		<tr>
+            <th rowspan="2">No</th>
+            <th rowspan="2">Posisi</th>
+            <th rowspan="2">Nama Sekolah</th>
+            <th colspan="2">waktu</th>
+        </tr>
+        <tr>
+            <td>mulai</td> 
+            <td> selesai</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>SD</td>
+            <td>SDIT Nurul Ilmi</td>
+            <td>2008</td> 
+            <td>2014</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>SMP</td>
+            <td>SMPIT Thariq Bin Siyad</td>
+            <td>2014</td> 
+            <td>2017</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>SMA</td>
+            <td>SMAN 1 Bekasi</td>
+            <td>2017</td> 
+            <td>2020</td>
+        </tr>
+	</table>
+
+    <form>
+    <h2 id="3">Hubungi Saya</h2>
+	<p>
+        <label for="nama">Nama :</label>
+        <input type="text" id="nama" name="nama">
+    </p>
+    <p>
+        <label for="tanya">sudah nonton film saya?</label> <br>
+        <input type="radio" id="tanya" name="tanya">sudah <br>
+        <input type="radio" id="tanya" name="tanya">belum <br>
+    </p>
+
+    <input type="checkbox"> ini <br>
+    <input type="checkbox"> itu <br>
+    <input type="checkbox"> anu <br>
+    
+    <button type="submit">Kirim</button>
+    </form>
+	
+</body>
+</html>
